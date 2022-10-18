@@ -8,17 +8,13 @@ altActionText: Learn More
 altActionLink: /guide/
 
 features:
-    - title: 💡 Instant Server Start
-      details: On demand file serving over native ESM, no bundling required!
-    - title: ⚡️ Lightning Fast HMR
-      details: Hot Module Replacement (HMR) that stays fast regardless of app size.
-    - title: 🛠️ Rich Features
-      details: Out-of-the-box support for TypeScript, JSX, CSS and more.
-    - title: 📦 Optimized Build
-      details: Pre-configured Rollup build with multi-page and library mode support.
-    - title: 🔩 Universal Plugins
-      details: Rollup-superset plugin interface shared between dev and build.
-    - title: 🔑 Fully Typed APIs
-      details: Flexible programmatic APIs with full TypeScript typing.
-footer: MIT Licensed | Copyright © 2021-present 君惜
+- icon: 💡
+  title: Vue3组件库
+  details: 基于vite打包和TypeScript开发
+- icon: 📦
+  title: 仅供学习使用
+  details: 倾向于Vue3组件库的学习，请勿用于实际生产项目
+- icon: 🛠️
+  title: 按需引入
+  details: 直接支持按需引入无需配置任何插件。
 ---
