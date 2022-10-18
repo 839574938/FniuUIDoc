@@ -10,16 +10,16 @@ module.exports = {
   ],
   base: base,
   themeConfig: {
-    repo: 'xinlei3166/vitepress-demo',
+    repo: '839574938/Fniu-UI-Doc',
     logo: '/logo.svg',
     docsDir: 'docs',
     docsBranch: 'master',
 
-    algolia: {
-      appId: 'X51HWTCQJJ',
-      apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-      indexName: 'vitepress-demo'
-    },
+    // algolia: {
+    //   appId: 'X51HWTCQJJ',
+    //   apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
+    //   indexName: 'vitepress-demo'
+    // },
 
     // nav
     nav,
