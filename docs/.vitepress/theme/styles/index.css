@@ -1,0 +1,20 @@
+:root {
+  --c-brand: #646cff;
+  --c-brand-light: #747bff;
+}
+
+.demo-block .xl-button {
+  margin: 0 10px 10px 0;
+}
+
+.c-status{
+    display: inline-block;
+}
+
+.c-status + .c-status{
+    margin-left: 16px;
+}
+
+.c-operate + .c-operate{
+    margin-top: 16px;
+}
