@@ -18,3 +18,12 @@
 .c-operate + .c-operate{
     margin-top: 16px;
 }
+
+.c-table-pagination table {
+    display: table;
+    margin: 0;
+}
+
+.c-table-pagination th, .c-table-pagination td{
+    border: 0;
+}

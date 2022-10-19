@@ -161,16 +161,6 @@ export default {
   }
 }
 </script>
-<style scoped>
-.c-table-pagination table {
-  display: table;
-  margin: 0;
-}
-
-.c-table-pagination th, .c-table-pagination td{
-  border: 0;
-}
-</style>
 ```
 
 :::

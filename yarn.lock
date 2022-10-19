@@ -673,6 +673,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+dom-walk@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.2.tgz#0c548bef048f4d1f2a97249002236060daa3fd84"
+  integrity sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==
+
 element-plus@^2.2.18:
   version "2.2.18"
   resolved "https://registry.yarnpkg.com/element-plus/-/element-plus-2.2.18.tgz#62b388e05587506d2d40bede0729046f7c41f9d9"
@@ -759,10 +764,10 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-fniu-ui@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.npmjs.org/fniu-ui/-/fniu-ui-0.1.7.tgz"
-  integrity sha512-8gY0uRQ9sJRMdwGWFOYCXO7uAix/ShAjrr6+KmHgy3Rg6jrRHivK1tshdBuwLPpV8XWowsba0BEURiDpjCL0nw==
+fniu-ui@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/fniu-ui/-/fniu-ui-0.1.8.tgz#64029cf84eec93efc6e075de001d66d233b557f7"
+  integrity sha512-i81OYUFTDlw3bUVaCDgsyRjiHIgR3DTiqqD9iN/m9HLjNi7JGRGwAeXfkc8uQDh0rqje6JDtJRN2w+BwBVU2ng==
   dependencies:
     vue "^3.2.37"
 
@@ -791,6 +796,14 @@ glob-parent@^5.1.0:
   integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
   dependencies:
     is-glob "^4.0.1"
+
+global@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/global/-/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
+  integrity sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==
+  dependencies:
+    min-document "^2.19.0"
+    process "^0.11.10"
 
 globby@^11.0.2:
   version "11.0.2"
@@ -1119,6 +1132,13 @@ mimic-fn@^2.1.0:
   resolved "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
+min-document@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
+  integrity sha512-9Wy1B3m3f66bPPmU5hdA4DR4PB2OfDU/+GS3yAB7IQozE3tqXaVv2zOjgla7MEGSRv95+ILmOuvhLkOK6wJtCQ==
+  dependencies:
+    dom-walk "^0.1.0"
+
 minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
@@ -1256,6 +1276,11 @@ prismjs@^1.23.0:
   version "1.24.0"
   resolved "https://registry.npmjs.org/prismjs/-/prismjs-1.24.0.tgz"
   integrity sha512-SqV5GRsNqnzCL8k5dfAjCNhUrF3pR0A9lTDSCUZeh/LIshheXJEaP0hwLz2t4XHivd2J/v2HR+gRnigzeKe3cQ==
+
+process@^0.11.10:
+  version "0.11.10"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
 prr@~1.0.1:
   version "1.0.1"
@@ -1543,7 +1568,7 @@ vue@^3.2.1:
     "@vue/runtime-dom" "3.2.4"
     "@vue/shared" "3.2.4"
 
-vue@^3.2.37:
+vue@^3.2.37, vue@^3.2.41:
   version "3.2.41"
   resolved "https://registry.npmjs.org/vue/-/vue-3.2.41.tgz"
   integrity sha512-uuuvnrDXEeZ9VUPljgHkqB5IaVO8SxhPpqF2eWOukVrBnRBx2THPSGQBnVRt0GrIG1gvCmFXMGbd7FqcT1ixNQ==
