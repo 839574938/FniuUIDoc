@@ -3,9 +3,9 @@ import 'vitepress-theme-demoblock/theme/styles/index.css'
 import { registerComponents } from './register-components'
 import './styles/index.css'
 import ElementPlus from 'element-plus'
-import FniuUI from 'fniu-ui'
-import 'fniu-ui/lib/style.css'
 import 'element-plus/dist/index.css'
+import FniuUI from 'fniu-ui/lib/index.es'
+import 'fniu-ui/lib/style.css'
 
 export default {
   ...theme,

@@ -3,14 +3,14 @@ const nav = require('./configs/nav')
 const sidebar = require('./configs/sidebar')
 
 module.exports = {
-  title: 'FniuUI',
+  title: 'VitePress',
   description: 'Life is short, Keep it simple.',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
   ],
   base: base,
   themeConfig: {
-    repo: '839574938/Fniu-UI-Doc',
+    repo: '839574938/Fniu-UI',
     logo: '/logo.svg',
     docsDir: 'docs',
     docsBranch: 'master',
